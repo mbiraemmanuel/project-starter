@@ -55,6 +55,7 @@ class PostFormPage extends React.Component {
     }
 
     return (
+      <>
       <div className="col-10 col-md-8 col-lg-7">
         { errorMessage }
         <div className="input-group">
@@ -68,6 +69,7 @@ class PostFormPage extends React.Component {
           <button className="btn btn-primary" onClick={this.savePost}>Save Post</button>
         </div>
       </div>
+      </>
     );
   }
 }

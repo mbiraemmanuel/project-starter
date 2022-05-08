@@ -1,0 +1,11 @@
+.machines{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    
+}
+
+.home-container{
+    min-height: 92vh;
+}
